@@ -1,0 +1,84 @@
+#titel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 2px;
+    filter: drop-shadow(0 0 0.80rem white);
+}
+
+body {
+    background-image: url(https://cdn.hipwallpaper.com/i/93/12/ptYqB4.jpg);
+    background-size: cover;
+
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(9, 5vw);
+    margin: 50px 350px 50px 350px;
+}
+
+.box {
+    border: solid 5px lightblue;
+    border-radius: 150px;
+    filter: drop-shadow(0 0 0.80rem gray);
+}
+
+#box1 {
+    background-image: url("https://cdn.aarp.net/content/dam/aarp/money/scams_fraud/2019/12/1140-puppy-sad.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column-start : 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+#box2 {
+    background-image: url("https://www.petmd.com/sites/default/files/petmd-shaking-puppy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column-start : 5;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+#box3 {
+    background-image: url("https://www.thesprucepets.com/thmb/8G53qUpCCyOC64WS2Iu0uZ97IGc=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/puppy-looking-into-camera-83454906-5b9ae83046e0fb0025f52133.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column-start : 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 11;
+}
+
+#box4 {
+    background-image: url("https://thehappypuppysite.com/wp-content/uploads/2018/04/when-can-puppies-go-outside-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column-start : 5;
+    grid-column-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 11;
+}
+
+.boxText {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding-top: 125px;
+}
+
+
+
+
+
+
+
+
+
